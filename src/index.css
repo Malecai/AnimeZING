@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #edeae3;
+  color: #14121a;
+}
+
+/* Halftone texture strip used as a signature brand motif */
+.halftone-strip {
+  background-image: radial-gradient(#14121a 1px, transparent 1.4px);
+  background-size: 9px 9px;
+}
+
+.halftone-strip-light {
+  background-image: radial-gradient(#edeae3 1px, transparent 1.4px);
+  background-size: 9px 9px;
+}
+
+/* Panel border used on cards, nav, buttons -- the manga-panel signature look */
+.panel-border {
+  border: 3px solid #14121a;
+  box-shadow: 5px 5px 0 0 #14121a;
+}
+
+.panel-border-sm {
+  border: 2px solid #14121a;
+  box-shadow: 3px 3px 0 0 #14121a;
+}
+
+/* Visible keyboard focus, kept consistent with the brand accent */
+:focus-visible {
+  outline: 3px solid #ff3d6e;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
