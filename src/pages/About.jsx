@@ -1,7 +1,7 @@
 const stack = [
   { name: "React", role: "Component-driven UI, state, and routing" },
   { name: "Tailwind CSS", role: "Utility-first, fully responsive styling" },
-  { name: "Jikan API", role: "Live anime data sourced from MyAnimeList" },
+  { name: "Multiple APIs", role: "Jikan, Kitsu, and AniList are used for live anime data sourced from MyAnimeList" },
 ];
 
 export default function About() {
