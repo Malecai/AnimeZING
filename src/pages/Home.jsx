@@ -12,7 +12,7 @@ export default function Home() {
   async function loadTrending() {
     setStatus("loading");
     try {
-      const result = await fetchTopAnime(8);
+      const result = await fetchTopAnime(12);
       setAnime(result.data || []);
       setStatus("success");
     } catch (error) {
