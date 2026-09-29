@@ -24,7 +24,7 @@ for the INTECH 3112 first/second term project.
 | React 18 + Vite      | Component UI and dev/build tooling         |
 | React Router         | Client-side navigation between views       |
 | Tailwind CSS         | Styling and responsive layout              |
-| Jikan API v4         | Live anime data (no API key required)      |
+| Multiple APIs         | Live anime data from AniList, Kitsu, and Jikan (no API key required)      |
 
 ## Project structure
 
